@@ -2,6 +2,8 @@
 
 This project uses GIS spatial analysis and Python automation to predict flood inundation areas and water depths in Hamilton City under extreme rainfall scenarios. It also identifies potential shelter locations to support emergency planning.
 
+***The content below provides a brief overview of the project. For detailed methodology and results, see Report.pdf.***
+
 ##  Project Background
 
 As extreme weather events become more frequent due to climate change, Hamilton is likely to face more serious rainfall-related flooding. This project explores the questions:
@@ -44,6 +46,24 @@ The workflow integrates ArcGIS Pro hydrological tools with Python scripting, and
 - A radius of 5 (vs. 3) improves spatial continuity
 - Flood characteristics increase with rainfall intensity
 - Under extreme rainfall, results are highly sensitive to statistical methods used
+
+<p align="center">
+  <img src="images/Graph_total_inundation_area_comparison.png" width="700"><br>
+  <img src="images/Graph_average_depth_comparison.png" width="700"><br>
+  <em>Figure: Comparison of total inundation area and average flood depth under different smoothing methods.</em>
+</p>
+
+##  Map Demonstration
+
+The maps below present flood inundation results generated using the MEAN smoothing method with a radius of 5 (Focal Statistics), under the 10-, 20-, and 50-year rainfall scenarios.
+
+<p align="center">
+  <img src="images/Layout(10yr_5_mean).jpg" width="700"><br>
+  <img src="images/Layout(20yr_5_mean).jpg" width="700"><br>
+  <img src="images/Layout(50yr_5_mean).jpg" width="700"><br>
+  <em>Figure: Flood inundation maps for the 10-, 20-, and 50-year rainfall scenarios.</em>
+</p>
+
 
 ##  Files Included
 
