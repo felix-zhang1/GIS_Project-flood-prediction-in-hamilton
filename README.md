@@ -48,8 +48,8 @@ The workflow integrates ArcGIS Pro hydrological tools with Python scripting, and
 - Under extreme rainfall, results are highly sensitive to statistical methods used
 
 <p align="center">
-  <img src="images/Graph_total_inundation_area_comparison.png" width="700"><br>
-  <img src="images/Graph_average_depth_comparison.png" width="700"><br>
+  <img src="images/Graph_total_inundation_area_comparison.png" width="500"><br>
+  <img src="images/Graph_average_depth_comparison.png" width="500"><br>
   <em>Figure: Comparison of total inundation area and average flood depth under different smoothing methods.</em>
 </p>
 
